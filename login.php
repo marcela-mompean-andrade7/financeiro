@@ -25,7 +25,7 @@ if (isset($_SESSION['usuario_id'])) {
 
     <?php exibir_mensagem(); ?>
 
-    <form action="autenticar.php" method="post">
+    <form action="autenticar.php" method="post" class="forms-login">
         <div>
             <label for="email">E-mail:</label>
             <input type="email" name="email" id="email" required>

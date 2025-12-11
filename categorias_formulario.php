@@ -50,7 +50,7 @@ if ($id_categoria) {
     <div class="nova">
     <h2><?php echo $categoria ? 'Editar' : 'Nova'; ?> Categoria</h2>
     
-    <form action="categorias_salvar.php" method="POST">
+    <form action="categorias_salvar.php" method="POST" class="formulario-categoria">
         <?php if ($categoria): ?>
             <input type="hidden" name="id_categoria" value="<?php echo $categoria['id_categoria']; ?>">
         <?php endif; ?>
@@ -74,7 +74,7 @@ if ($id_categoria) {
         <div>
             <br>
             <button type="submit">Salvar</button>
-            <button><a href="categorias_listar.php">Cancelar</a></button>
+            <button><a href="categorias_listar.php" class="btn-cancel">Cancelar</a></button>
         </div>
     </form>
     </div>

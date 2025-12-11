@@ -61,7 +61,8 @@ $categorias = $stmt_categorias->fetchAll();
     
     <div>
         <p>Bem-vindo, <strong><?php echo htmlspecialchars($usuario_nome); ?></strong></p>
-        <a href="logout.php">Sair</a>
+        <a href="logout.php" class="btn-danger">Sair</a>
+        <button class="btn-danger">sair</button>
     </div>
     
     <?php exibir_mensagem(); ?>
