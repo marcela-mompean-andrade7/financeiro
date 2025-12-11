@@ -60,7 +60,7 @@ $ultimas_transacoes = $stmt_ultimas->fetchAll();
 
     <div>
         <p>Bem-vindo, <strong> <?php echo $usuario_nome ?> </strong></p>
-        <button><a href="logout.php">Sair</a></button>
+        <a href="logout.php" class="btn-magico">Sair</a>
     </div>
 
     <?php exibir_mensagem(); ?>

@@ -52,9 +52,11 @@ $categorias = $stmt_categorias->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Transações - Sistema Financeiro</title>
 </head>
 <body>
+    <div class="list">
     <h1>Sistema Financeiro Pessoal</h1>
     
     <div>
@@ -140,5 +142,6 @@ $categorias = $stmt_categorias->fetchAll();
     <?php else: ?>
         <p>Nenhuma transação encontrada.</p>
     <?php endif; ?>
+    </div>
 </body>
 </html>
