@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(50, 106, 219);
+    background-color: rgb(79, 192, 220);
     text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgb(27, 27, 27, 0.3);
 }
 
 .login{
@@ -32,3 +34,145 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.quadro{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 20px;
+    border:2px rgb(54, 115, 176) solid;
+}
+
+/* Index */
+.index-body{
+    background-color: rgb(79, 192, 220);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgb(27, 27, 2);
+}
+
+.tudo{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}
+
+.primeiro{
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border: 2px rgb(54, 115, 176) solid;
+    box-shadow: 5px 0 5px rgb(0, 0, 0, 0.2);
+}
+
+.segundo{
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border: 2px rgb(54, 115, 176) solid;
+    box-shadow: 5px 0 5px rgb(0, 0, 0, 0.2);
+}
+
+.terceiro{
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border: 2px rgb(54, 115, 176) solid;
+    box-shadow: 5px 0 5px rgb(0, 0, 0, 0.2);
+}
+
+button{
+  width: 90px;
+  padding: 14px;
+  background: var(--color-primary);
+  color: black;
+  background-color: rgb(79, 192, 220);
+  font-weight: bold;
+  border: 2px solid rgb(79, 192, 220);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: opacity .2s, transform .15s
+}
+
+.categorias-body{
+    background-color: rgb(79, 192, 220);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgb(27, 27, 2);
+}
+
+.sis{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}
+.cat{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}
+
+.financeiro{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 20px;
+    border:2px rgb(54, 115, 176) solid;
+}
+.financeiro{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 20px;
+    border:2px rgb(54, 115, 176) solid;
+}
+.finan{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}
+.nova{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}
+
+.registro-body{
+    background-color: rgb(79, 192, 220);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px rgb(27, 27, 2);
+}
+
+.cas{
+    background-color: white;
+    padding: 80px;
+    margin: 80px;
+    border-radius: 7px;
+    border:2px rgb(54, 115, 176) solid;
+}

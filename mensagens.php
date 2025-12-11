@@ -11,9 +11,11 @@ function exibir_mensagem() {
         $mensagem = $_SESSION['mensagem'];
         $tipo = $_SESSION['mensagem_tipo'];
 
+        echo '<div class="sis">';
         echo'<div class="mensagem mensagem-'.$tipo.'">';
         echo '<p>'.$mensagem.'</p>';
         echo'</div>';
+        echo '</div>';
 
         //Limpar as variáveis de sessão
         unset($_SESSION['mensagem']);
